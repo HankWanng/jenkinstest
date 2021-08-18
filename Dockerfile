@@ -1,3 +1,3 @@
 FROM alpine
 ENTRYPOINT ["echo", "Hello,Hank!"]
-cmd["ci test success"]
+ENTRYPOINT ["echo", "ci test success!"]
